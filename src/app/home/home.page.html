@@ -10,7 +10,7 @@
   <ion-list *ngIf="isDeliveryDataLoad">
     <ion-item *ngFor="let docs of documents" >
       <ion-icon slot="start" name="person-circle-outline"></ion-icon>
-      <ion-label class="ion-text-wrap"><h2>{{docs.name}}</h2></ion-label>
+      <ion-label class="ion-text-wrap"><h2>{{docs.status[0]}}</h2></ion-label>
     </ion-item>
   </ion-list>
   <ul>
